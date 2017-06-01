@@ -100,7 +100,14 @@ h2 {
 	width: 30%;
 	
 }
+/*Order form mobile view*/
 
+form {
+	width:80%;
+	margin:auto;
+	text-align: center;
+	background-color: #534954;
+}
 
 /*Winion Teaser img in div on index.html*/
 .ironWinion {
@@ -155,6 +162,12 @@ footer {
 
 }
 
+form {
+	width:50%;
+	margin:auto;
+	text-align: center;
+	background-color: #534954;
+}
 }/*end of media query for 769px*/
 
 @media (min-width: 900px){
