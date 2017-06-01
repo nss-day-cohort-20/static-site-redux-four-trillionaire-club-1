@@ -100,3 +100,28 @@ footer{
 }
 
 }/*end of media query for 769px*/
+
+/*about page css*/
+#skull {
+	display: flex;
+	width: 5.5%;
+	float: left;
+	padding-left: 30%;
+}
+
+#skull2 {
+	display: flex;
+	width: 5.5%;
+	float: right;
+	padding-right: 30%;
+
+}
+
+#statement {
+	text-align: center;
+	padding-bottom: 20%;
+}
+
+article {
+	color: white;
+}
