@@ -1,0 +1,45 @@
+#skull {
+	display: flex;
+	width: 5%;
+	
+	float: left;
+}
+
+#skull2 {
+	display: flex;
+	width: 5%;
+	
+	float: right;
+}
+
+h4 {
+	color: white;
+}
+
+article {
+	color: white;
+}
+
+#first {
+	padding: 100px;
+}
+
+#second {
+	padding: 100px;
+}
+
+#third {
+	padding: 100px;
+}
+
+#fourth {
+	padding: 100px;
+}
+
+#glen {
+	float: left;
+}
+
+#gretta {
+	float: left;
+}
