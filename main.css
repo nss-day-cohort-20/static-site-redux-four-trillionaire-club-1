@@ -3,12 +3,18 @@
 .nav {
 	background-color: white; 
 	border-bottom: #FF0005; /*Red*/
+	text-align: center;
 	
 
 }
+
+
 .nav a li {
-	display: inline;
+	display: inline-block;
 	text-decoration: none;
+	padding:5px;
+
+
 }
 
 body{
@@ -16,9 +22,13 @@ body{
 	background-color: #534954 /*Grey*/
 }
 
+h2{color:white;
+text-align: center;}
+
 /*Sections*/
 /*Welcome part of index.html*/
 .welcome{
+
 
 }
 /*Divs*/
@@ -44,8 +54,11 @@ body{
 /*Pictures*/
 /*Winion logo*/
 .logo{
-	max-width: 150px;
+	width: 30%;
+	
 }
+
+
 /*Winion Teaser img in div on index.html*/
 .ironWinion{
 	display: block;
@@ -61,6 +74,29 @@ footer{
 	border:solid;
 	border-color: black;
 }
-/*Misc*/{
+/*Media Queries*/
+
+@media (min-width: 769px){
+
+.nav ul {display:flex;}
+
+.nav a li {
+	display: inline;
+	text-decoration: none;
 
 }
+
+.logo{
+	width: 10%;
+	
+}
+
+.floatleft{
+	float: left;
+}
+
+.floatright {
+	float:right;
+}
+
+}/*end of media query for 769px*/
