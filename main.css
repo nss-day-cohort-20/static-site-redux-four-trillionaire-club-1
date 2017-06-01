@@ -53,7 +53,15 @@ h2 {
 }
 
 /*Winion Captions*/
-/*Winion*/{
+/*Winion*/
+.caption{
+	background-color: lightgrey;
+	border:solid;
+	border-color: #524543;
+	margin-bottom: 3%;
+}
+.caption p{
+	
 
 }
 /*Testimonials Div on index.html*/
@@ -68,6 +76,16 @@ h2 {
 }
 /*Pictures*/
 /*Winion logo*/
+.winionpic img{
+   height: 250px;
+   background-color: white;
+   border:solid;
+   border-color: #FF0005;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+}
 .logo {
 	width: 30%;
 	
@@ -126,3 +144,14 @@ footer {
 
 }/*end of media query for 769px*/
 
+@media (min-width: 900px){
+/*I'm not sure how to make them display in rows this is my feeble attempt -Sam*/
+.card {
+	display: inline-block;
+	height:auto;
+	float:left;
+	width:30%;
+	margin-right: 1%;
+	}
+}
+/*end of Media query for 900px*/
