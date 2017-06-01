@@ -4,58 +4,58 @@ var winionArray =
 	{
 		"id" : "",
 		"name": "Sycophant",
-		"description": "",
+		"description": "Our most powerful Winion.",
 		"price" : "$10,000",
-		"url" : "./images/",
+		"url" : "./images/ironman.jpg",
 	},
 	{
 		"id" : "",
 		"name": "Flunky",
-		"description": "",
+		"description": "The sidekicker Winion.",
 		"price" : "$8,000",
-		"url" : "",
+		"url" : "./images/Captain-minion-despicable-me-2.jpg",
 	},
 	{
 		"id" : "",
 		"name": "Lackey",
-		"description": "",
+		"description": "Useful for manning the deathrays.",
 		"price" : "$7,500",
-		"url" : "./images/",
+		"url" : "./images/KingBob.jpeg",
 	},
 	{
 		"id" : "",
 		"name": "Toady",
-		"description": "",
+		"description": "Capable of almost any evil task.",
 		"price" : "$6,900",
-		"url" : "./images/",
+		"url" : "./images/hitminion.png",
 	},
 	{
 		"id" : "",
 		"name": "Bootlicker",
-		"description": "",
+		"description": "Effective stress relief for those bright heroic days.",
 		"price" : "$5,999",
-		"url" : "./images/",
+		"url" : "./images/golfminion.jpeg",
 	},
 	{
 		"id" : "",
 		"name": "Doormat",
-		"description": "",
+		"description": "Efficent obstacle to prying heroes.",
 		"price" : "$5,259",
-		"url" : "./images/",
+		"url" : "./images/pirateMinion.jpg",
 	},
 	{
 		"id" : "",
 		"name": "Puppet",
-		"description": "",
+		"description": "Economic yet still poweful.",
 		"price" : "$2,995",
-		"url" : "./images/",
+		"url" : "./images/Pengwinion.png",
 	},
 	{
 		"id" : "",
 		"name": "Stooge",
-		"description": "",
+		"description": "Basic swarm the hero en masse Winion.",
 		"price" : "$999",
-		"url" : "./images/",
+		"url" : "./images/guitarminion.png",
 	}
 ]
 
@@ -72,7 +72,7 @@ for (var i = 0;i < winionArray.length; i++) {
 	`
 		<section id="${winionArray[i].name.toLowerCase()}" class="card">
 				<div class="winionpic">
-					<img href="${winionArray[i].url}">
+					<img src="${winionArray[i].url}">
 				</div>
 				<div class="caption">
 					<h2> Winion Type: ${winionArray[i].name} </h2>
