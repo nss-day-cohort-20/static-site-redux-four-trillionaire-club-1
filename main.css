@@ -1,0 +1,51 @@
+/*Currently using Red FF0005, Black, and Grey 534954*/
+/*Everything is subject to change! I'm mostly setting a foundation for now*/
+.nav {
+	background-color: black; 
+	border-bottom: #FF0005; /*Red*/
+	
+
+}
+.nav a li {
+	display: inline;
+	text-decoration: none;
+}
+
+body{
+		background-color: #534954
+}
+
+/*Sections*/
+/*Welcome part of index.html*/
+.welcome	{
+
+}
+/*Divs*/
+/*Winion Teaser div on index.html*/
+.bigbad{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid;
+	border-color: black;
+}
+/*Winion Captions*/
+/*Winion*/{
+
+}
+/*Testimonials Div on index.html*/
+.testimonials{
+	float: left;
+	margin-right: auto;
+	border: solid;
+	border-color: black;
+}
+/*Spans*/{
+
+}
+/*Pictures*/{
+
+}
+/*Misc*/{
+
+}
