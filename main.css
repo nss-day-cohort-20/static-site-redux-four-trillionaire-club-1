@@ -101,12 +101,16 @@ h2 {
 	
 }
 /*Order form mobile view*/
+#order{
+	clear:both;
+}
 
 form {
 	width:80%;
 	margin:auto;
 	text-align: center;
 	background-color: #534954;
+
 }
 
 /*Winion Teaser img in div on index.html*/
@@ -123,6 +127,7 @@ footer {
 	background-color: white;
 	border:solid;
 	border-color: black;
+	clear:both;
 }
 
 
