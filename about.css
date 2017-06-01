@@ -1,15 +1,17 @@
 #skull {
 	display: flex;
 	width: 5%;
-	
 	float: left;
 }
 
 #skull2 {
 	display: flex;
 	width: 5%;
-	
 	float: right;
+}
+
+#statement {
+	text-align: center;
 }
 
 h4 {
