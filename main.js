@@ -78,6 +78,7 @@ for (var i = 0;i < winionArray.length; i++) {
 					<h2> Winion Type: ${winionArray[i].name} </h2>
 					<h3 class="price">Price: ${winionArray[i].price} </h3>
 					<p>${winionArray[i].description}</p>
+					<a href = "products.html#order"><button>Buy Now!</button></a>
 				</div>
 				
 			</section><!--end of card-->
