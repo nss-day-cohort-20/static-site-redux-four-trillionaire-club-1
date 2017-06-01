@@ -1,39 +1,54 @@
 /*Currently using the color Red as FF0005, Black, White and Grey as 534954*/
 /*Everything is subject to change! I'm mostly setting a foundation for now*/
+
+
+/*VVVVVVVVmobile nav css VVVVVV*/
+
+
+
 .nav {
 	background-color: white; 
 	border-bottom: #FF0005; /*Red*/
 	text-align: center;
-	
-
 }
 
 
 .nav a li {
 	display: inline-block;
 	text-decoration: none;
-	padding:5px;
-
-
+	padding: 5px;
 }
 
-body{
+.floatleft {
+	
+}
+
+
+/*^^^^^^^mobile nav css^^^^^^^^^*/
+
+
+
+
+body {
 	background-image: url("./images/abstractdarkwallpaper.jpg");
 	background-color: #534954 /*Grey*/
 }
 
-h2{color:white;
-text-align: center;}
+h2 {
+	color:white;
+	text-align: center;
+}
+
 
 /*Sections*/
 /*Welcome part of index.html*/
-.welcome{
+.welcome {
 
 
 }
 /*Divs*/
 /*Winion teaser div in index.html*/
-.bigbad{
+.bigbad {
 
 }
 
@@ -42,7 +57,7 @@ text-align: center;}
 
 }
 /*Testimonials Div on index.html*/
-.testimonials{
+.testimonials {
 	float: left;
 	margin-right: auto;
 	border: solid;
@@ -53,14 +68,14 @@ text-align: center;}
 }
 /*Pictures*/
 /*Winion logo*/
-.logo{
+.logo {
 	width: 30%;
 	
 }
 
 
 /*Winion Teaser img in div on index.html*/
-.ironWinion{
+.ironWinion {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -69,59 +84,45 @@ text-align: center;}
 }
 
 /*footers*/
-footer{
+footer {
 	background-color: white;
 	border:solid;
 	border-color: black;
 }
+
+
 /*Media Queries*/
 
 @media (min-width: 769px){
 
-.nav ul {display:flex;}
+.nav ul {
+	display:flex;
+
+
+}
 
 .nav a li {
 	display: inline;
 	text-decoration: none;
 
+
 }
 
-.logo{
+.logo {
 	width: 10%;
+	display: inline;
 	
 }
 
 .floatleft{
 	float: left;
+
 }
 
 .floatright {
 	float:right;
+	padding-right: 40px;
 }
 
 }/*end of media query for 769px*/
 
-/*about page css*/
-#skull {
-	display: flex;
-	width: 5.5%;
-	float: left;
-	padding-left: 30%;
-}
-
-#skull2 {
-	display: flex;
-	width: 5.5%;
-	float: right;
-	padding-right: 30%;
-
-}
-
-#statement {
-	text-align: center;
-	padding-bottom: 20%;
-}
-
-article {
-	color: white;
-}
