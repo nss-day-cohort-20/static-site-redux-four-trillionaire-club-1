@@ -1,3 +1,17 @@
-.hiring-pitch {
+.hiring-pitch, .positions-needed {
+	background-color: #534954;
+}
+
+.positions-needed ul {
+	list-style: none;
+}
+
+.positions-needed li {
+	min-height: 200px;
+}
+
+.positions-needed img {
+	float: left;
 	height: 150px;
+	margin-right: 10px;
 }
