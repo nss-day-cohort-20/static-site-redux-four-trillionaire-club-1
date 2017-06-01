@@ -5,6 +5,10 @@
 /*VVVVVVVVmobile nav css VVVVVV*/
 
 
+* {
+	font-family: sans-serif;
+}
+
 
 .nav {
 	background-color: white; 
