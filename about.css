@@ -1,4 +1,5 @@
 text-align: center;
+
 }
 
 
@@ -17,6 +18,31 @@ text-align: center;
 	
 }
 
+
+#glen {
+	border-radius: 100%;
+	border-style: solid;
+	border-color: slategrey;
+}
+
+#gretta {
+	border-radius: 100%;
+	border-style: solid;
+	border-color: slategrey;
+}
+
+#josh {
+	border-radius: 100%;
+	border-style: solid;
+	border-color: slategrey;
+}
+
+#sam {
+	border-radius: 100%;
+	border-style: solid;
+	border-color: slategrey;
+}
+
 /*about page css*/
 #skull {
 	display: flex;
@@ -33,6 +59,12 @@ text-align: center;
 
 }
 
+
+#win {
+	padding-top: 3%;
+	font-size: 2.5vw;
+}
+
 #statement {
 	text-align: center;
 	padding-bottom: 20%;
@@ -40,8 +72,11 @@ text-align: center;
 
 article {
 	color: white;
+	padding: 4% 5% 0 5%;
 }
 
 h4 {
 	color: white;
+	font-family: 'Orbitron', sans-serif;
+
 }
