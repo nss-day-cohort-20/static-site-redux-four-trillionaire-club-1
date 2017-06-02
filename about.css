@@ -1,15 +1,21 @@
+
 #first {
+	padding-top: 5%;
+
 }
 
 #second {
+	padding-top: 5%;
 		
 }
 
 #third {
+	padding-top: 5%;
 	
 }
 
 #fourth {
+	padding-top: 5%;
 	
 }
 
@@ -44,6 +50,7 @@
 	width: 5.5%;
 	float: left;
 	padding-left: 30%;
+	padding-top: .5%;
 }
 
 #skull2 {
@@ -51,32 +58,48 @@
 	width: 5.5%;
 	float: right;
 	padding-right: 30%;
+	padding-top: .5%;
 
 }
 
 
 #win {
 	padding-top: 3%;
+	padding-bottom: 3%;
 	font-size: 2.5vw;
+	background-color: #766e77;
+	border-bottom-style: solid;
+	border-bottom-color: red;
 }
 
 #statement {
-	text-align: center;
-	padding-bottom: 20%;
+	background-color: #534954;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-style: solid;
+	border-color: red;
 }
 
 article {
 	color: white;
 	text-shadow: 2px 2px black;
 	text-align: center;
-	font-size: 1.5em;
-	padding: 4% 5% 0 5%;
+	font-size: 2vw;
+	padding: 6% 10% 2% 50%;
+	border-bottom-style: solid;
+	border-bottom-color: red;
+	background-color: #534954;
 }
 
 h4 {
 	color: white;
-	font-family: 'Orbitron', sans-serif;
+	float: left;
+	font-size: 3vw;
+	padding: 0 0 0 3%;
 }
+
 
 #bio {
 	max-width: 900px;
