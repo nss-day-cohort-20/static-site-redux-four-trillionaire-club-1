@@ -1,0 +1,66 @@
+
+.ironWinion{
+	width:100%;
+}
+
+.welcome  {
+	color:white;
+	text-align: center;
+}
+
+.welcome h2{
+	text-shadow: 2px 2px black;
+}
+
+.testimonials {
+	background-color: #534954;
+	width: 100%;
+	margin:0 auto;
+	padding: 10px;
+
+}
+
+.testimonials h2{
+		text-shadow: 2px 2px black;
+		padding-bottom: 20px;
+}
+
+.comment h3 {
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+
+}
+
+.comment h2{
+	font-family: 'Orbitron', sans-serif;
+	text-shadow: 2px 2px black;
+	text-align: center;
+}
+
+
+.comment ul {
+	list-style: none;
+}
+
+.comment li {
+	min-height: 200px;
+}
+
+.comment img {
+	float: left;
+	height: 150px;
+	margin-right: 10px;
+}
+
+footer {
+	text-align: center;
+}
+@media (min-width: 769px){
+	.ironWinion{
+
+		width:300px;
+		margin: 0 auto;
+	}
+
+
+}
