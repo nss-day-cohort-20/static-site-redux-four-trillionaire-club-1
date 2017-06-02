@@ -86,8 +86,8 @@ article {
 	color: white;
 	text-shadow: 2px 2px black;
 	text-align: center;
-	font-size: 1.5em;
-	padding: 2% 10% 2% 10%;
+	font-size: 2vw;
+	padding: 6% 10% 2% 50%;
 	border-bottom-style: solid;
 	border-bottom-color: red;
 	background-color: #534954;
@@ -95,7 +95,9 @@ article {
 
 h4 {
 	color: white;
-	font-family: 'Orbitron', sans-serif;
+	float: left;
+	font-size: 3vw;
+	padding: 0 0 0 3%;
 }
 
 
