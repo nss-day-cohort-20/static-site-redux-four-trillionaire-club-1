@@ -11,11 +11,29 @@
 
 
 .nav {
-	background-color: white; 
+	background-color: #151515; 
 	border-bottom: #FF0005; /*Red*/
 	text-align: center;
 }
 
+.nav ul a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav ul a {
+	text-decoration-line: red;
+}
+
+.nav ul a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+.nav ul a.current {
+	text-decoration: underline;
+	text-decoration-color: red;
+}
 
 .nav a li {
 	display: inline-block;
