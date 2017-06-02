@@ -39,7 +39,7 @@ var winionArray =
 	{
 		"id" : "",
 		"name": "Doormat",
-		"description": "Efficent obstacle to prying heroes.",
+		"description": "Efficient obstacle to prying heroes.",
 		"price" : "$5,259",
 		"url" : "./images/pirateMinion.jpg",
 	},
