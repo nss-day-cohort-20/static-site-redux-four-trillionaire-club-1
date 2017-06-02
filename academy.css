@@ -1,0 +1,27 @@
+#training-intro, #combat-training, #academyAppUpg {
+	background-color: #534954;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#training-intro h1, #training-intro h2 {
+	font-family: 'Orbitron', sans-serif;
+	color: white;
+	text-align: center;
+}
+
+#combat-training h3 {
+	font-family: 'Orbitron', sans-serif;
+}
+
+#training-intro .heading-box, #combat-training .heading-box, #academyAppUpg .heading-box {
+	padding: 10px;
+	background-color: #766e77;
+	border-bottom-style: solid;
+	border-bottom-color: red;
+}
+
+#training-intro p, #combat-training p, #combat-training h3, #academyAppUpg p {
+	padding: 10px;
+}
