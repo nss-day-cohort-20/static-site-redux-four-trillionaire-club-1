@@ -20,7 +20,7 @@ var winionArray =
 		"name": "Lackey",
 		"description": "Useful for manning the deathrays.",
 		"price" : "$7,500",
-		"url" : "./images/KingBob.jpeg",
+		"url" : "./images/KingBob.jpg",
 	},
 	{
 		"id" : "",
@@ -34,7 +34,7 @@ var winionArray =
 		"name": "Bootlicker",
 		"description": "Effective stress relief for those bright heroic days.",
 		"price" : "$5,999",
-		"url" : "./images/golfminion.jpeg",
+		"url" : "./images/golfminion.jpg",
 	},
 	{
 		"id" : "",
@@ -46,14 +46,14 @@ var winionArray =
 	{
 		"id" : "",
 		"name": "Puppet",
-		"description": "Economic yet still poweful.",
+		"description": "Economical yet still powerful.",
 		"price" : "$2,995",
 		"url" : "./images/Pengwinion.png",
 	},
 	{
 		"id" : "",
 		"name": "Stooge",
-		"description": "Basic swarm the hero en masse Winion.",
+		"description": "Basic swarm-the-hero-en masse Winion.",
 		"price" : "$999",
 		"url" : "./images/guitarminion.png",
 	}
