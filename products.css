@@ -1,0 +1,27 @@
+.caption{
+	width:100%;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+footer{
+	text-align: center;
+}
+@media (min-width: 769px){
+
+	.caption{
+		max-width:400px;
+	}
+
+	.caption h2 {
+		text-shadow: 2px 2px black;
+	}
+
+	#winionselect{
+		margin:0 auto;
+	}
+
+	.card{
+		    margin-right: 3.3%;
+	}
+}
